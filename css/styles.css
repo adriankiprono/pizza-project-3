@@ -7,3 +7,14 @@ h1{
     background-color: darkblue;
     border: black;
 }
+.row{
+    text-align: left;
+    color: aliceblue;
+
+    
+}
+h2{
+    border-color: white;
+    border-style: solid;
+    padding: 0%;
+}
