@@ -1,6 +1,9 @@
 h1{
-    text-align: center;
+    text-align: left;
+    font-style: italic;
+    color: azure;
 }
-h2{
-    text-align: center;
+.intro{
+    background-color: darkblue;
+    border: black;
 }
