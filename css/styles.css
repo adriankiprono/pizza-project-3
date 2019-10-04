@@ -17,7 +17,7 @@ h2{
     border-color: white;
     border-style: solid;
     padding: 0%;
-    
+
 }
 .home{
     background-image: url("../images/image.jpg");
@@ -32,4 +32,14 @@ h3{
     color: cornflowerblue;
     font-style: oblique;
     text-decoration: underline;
+}
+#about{
+    text-align: center;
+}
+.details{
+    font-family: 'Kalam', cursive;
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
