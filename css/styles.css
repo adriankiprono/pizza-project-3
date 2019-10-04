@@ -25,7 +25,10 @@ h2{
     background-size: cover;
     height: 80vh;
     width: 100%;
-
-
-
+}
+h3{
+    text-align: center;
+    color: cornflowerblue;
+    font-style: oblique;
+    text-decoration: underline;
 }
