@@ -1,6 +1,13 @@
-var pizzaType =parseInt(document.getElementById("#pizza-type").val);
-var pizzaSize =parseInt(document.getElementById("#pizza-size").val);
-var pizzaCrust =parseInt(document.getElementById("#crust-type").val);
-var pizzaTopping = parseInt(document.getElementById("#topping").val);
-var pizzaBoxes =parseInt(document.getElementById("#boxes").val);
-var pizzaDelivery =parseInt(document.getElementById("#delivery.").val);
+function Order(type, size, crust, topping) {
+    this.type = type;
+    this.size = size;
+    this.crust = crust;
+    this.topping = topping;
+}
+Order.prototype.fullOrder = function () {
+    return this.type + " with the topping of " + this.topping + " and " + this.crust + " as crust.";
+};
+
+
+
+
