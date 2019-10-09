@@ -23,9 +23,9 @@ Total.prototype.finalTotal = function () {
 var sizePrice = [1100, 900, 650]
 var deliverPrices = [0, 300];
 $(document).ready(function () {
-    $('form#myForm').submit(function (event) {
+    $('#order').submit(function (event) {
         event.preventDefault();
-        var pizzaType = $('#izza-type').val();
+        var pizzaType = $('#pizza-type').val();
 
         var pizzaSize = parseInt($('#pizza-size').val());
 
@@ -48,7 +48,7 @@ $(document).ready(function () {
         newOrder = new Order(pizzaType, pizzaSize, pizzaCrust, pizzaTop);
         newTotal = new Total(price, pizzaQty, DeliveryCost);
         if (pizzaPick===1){
-        alert("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
+        alert("Your order is: " + newOrder.fullOrder() + ".continue to see your total bill");
         alert("your bill is: " + newTotal.finalTotal() + ".You will receive your pizza in the next few minutes");
         }else{
             if(pizzaPick===2){
