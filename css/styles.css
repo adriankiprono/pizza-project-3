@@ -78,4 +78,31 @@ li {
     font-size: 24px;
     font-family: system-ui, serif;
 }
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Quattrocento', serif;
+    margin-top: 30px;
+}
 
+#contact {
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type="email"] {
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}
+
+#contact {
+    padding-top: 20px;
+}
+
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
