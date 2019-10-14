@@ -10,8 +10,6 @@ h1{
 .row{
     text-align: left;
     color: aliceblue;
-
-    
 }
 h2{
     border-color: white;
@@ -22,7 +20,7 @@ h2{
 .home{
     background-image: url("../images/image.jpg");
     background-repeat: no-repeat;
-    
+
     background-size: cover;
     height: 80vh;
     width: 100%;
@@ -33,22 +31,159 @@ h3{
     font-style: oblique;
     text-decoration: underline;
 }
-#about{
-    text-align: center;
-}
-.details{
-    font-family: 'Kalam', cursive;
 
-}
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+#details{
+    text-align: center;
+    color: black;
+    background-color: coral;
+
 }
 .heading{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
+}
+.container-fluid{
+  text-align: center;
 }
 .row{
     padding: 20px;
     background-color: coral;
+}
+
+body {
+    overflow-x: hidden;
+    color: #ffffff;
+}
+}
+#about{
+    text-align: center;
+    color: black;
+
+}
+.nav {
+    float: center;
+}
+
+#pizza-palace {
+    margin-left: 560px;
+    align-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: purple;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
+
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Quattrocento', serif;
+    margin-top: 30px;
+}
+
+#contact {
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type="email"] {
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}
+
+#contact {
+    padding-top: 20px;
+}
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color:green;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+.deliver, .delivernot {
+    margin: 10px;
+}
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+#list {
+    color: #000;
+}
+.pizz {
+    color: green;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+.top-nav-collapse {
+    background-color: green !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+        overflow-x: hidden;
+    }
+
+    .menu-overlay {
+        width: 100%;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .cdata {
+        padding: 10px 5px 10px 5px;
+    }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+    ul > .nav-items {
+        display: inline;
+        margin-right: 20px;
+        margin-left: 12px;
+    }
+}
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: green !important;
+    }
 }
