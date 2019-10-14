@@ -31,3 +31,33 @@ h3{
     font-style: oblique;
     text-decoration: underline;
 }
+
+#details{
+    text-align: center;
+    color: black;
+    background-color: coral;
+
+}
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.container-fluid{
+  text-align: center;
+}
+.row{
+    padding: 20px;
+    background-color: coral;
+}
+
+body {
+    overflow-x: hidden;
+    color: #ffffff;
+}
+
+#about{
+    text-align: center;
+    color: black;
+
+}
