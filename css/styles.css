@@ -106,3 +106,86 @@ input[type="email"] {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color:green;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.deliver, .delivernot {
+    margin: 10px;
+}
+
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+#list {
+    color: #000;
+}
+
+.pizz {
+    color: green;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+.top-nav-collapse {
+    background-color: green !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+        overflow-x: hidden;
+    }
+
+    .menu-overlay {
+        width: 100%;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .cdata {
+        padding: 10px 5px 10px 5px;
+    }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+    ul > .nav-items {
+        display: inline;
+        margin-right: 20px;
+        margin-left: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: green !important;
+    }
+}
+
